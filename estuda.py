@@ -1,5 +1,5 @@
-faturamento= int(input('Quanto que você ganho \n'))
-gasto= int(input('Quanto você gasto \n'))
+faturamento= int(input('Quanto que você ganho: \n'))
+gasto= int(input('Quanto você gasto: \n'))
 
 lucro = (faturamento - gasto)
 
