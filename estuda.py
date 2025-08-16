@@ -3,15 +3,12 @@ gasto= int(input('Quanto você gasto \n'))
 
 lucro = (faturamento - gasto)
 
-
-
 if lucro >= 0:
-    print( f'você lucrou '.upper())
+    print( f'você lucrou '.title())
     if True:
         print(lucro)
 
 else:
-    print( f'você teve prejuizo'.upper())
+    print( f'você teve prejuizo'.title())
     if True:
         print(lucro)
-
